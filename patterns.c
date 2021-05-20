@@ -5,7 +5,8 @@ int main(){
 
 	int a,b ;
 	a=get_int("Enter type of pattern(1 or 2) : ");
-	b=get_int("Number of rows ? \n");
+	b=get_int("Number of rows ? ");
+	printf("\n");
 
 		if (a==1){
 			for (int i=b;i>0;i--){
