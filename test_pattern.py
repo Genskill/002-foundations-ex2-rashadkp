@@ -16,7 +16,8 @@ def test():
     obtained = get_output(1, 4)
     assert expected == obtained, f"Pattern 1, 4 rows\nExpected\n{expected} Got\n{obtained}"
 
-    expected = """   #
+    expected = """   
+   #
   ##
  ###
 ####
@@ -24,7 +25,8 @@ def test():
     obtained = get_output(2, 4)
     assert expected == obtained, f"Pattern 2, 4 rows\nExpected\n{expected} Got\n{obtained}"
 
-    expected = """#####
+    expected = """
+#####
 ####
 ###
 ##
